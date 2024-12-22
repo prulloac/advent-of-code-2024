@@ -7,8 +7,11 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"1YiB.rust-bundle",
-				"fill-labs.dependi"
+				"fill-labs.dependi",
+				"rust-lang.rust-analyzer",
+				"dustypomerleau.rust-syntax",
+				"GitHub.copilot",
+				"vadimcn.vscode-lldb"
 			]
 		}
 	},
