@@ -3,30 +3,8 @@
 {
 	"name": "Full Environment",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"image": "ghcr.io/prulloac/universal:ubuntu",
 	"features": {
-        "ghcr.io/devcontainers/features/common-utils:2": {},
-		"ghcr.io/devcontainers/features/go:1": {
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers/features/python:1": {
-			"installTools": true,
-			"installJupyterlab": true,
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers/features/rust:1": {
-			"version": "latest",
-			"profile": "default",
-			"targets": "aarch64-unknown-linux-gnu"
-		},
-		"ghcr.io/prulloac/devcontainer-features/bun:1": {
-			"useNpm": true
-		},
-		"ghcr.io/devcontainers-extra/features/neovim-apt-get:1": {},
-		"ghcr.io/devcontainers-extra/features/tmux-apt-get:1": {},
-		"ghcr.io/devcontainers/features/java:1": {
-			"version": "21.0.2-open"
-		},
 		"ghcr.io/devcontainers-extra/features/ocaml-asdf:2": {},
 		"ghcr.io/prulloac/devcontainer-features/lua:1": {}
 	},
